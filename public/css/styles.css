@@ -1,4 +1,38 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.compraEnCuotas
+header{
+    background-color: #EAC926;
+}
+p{
+    font-size: 12px;
+}
+h3{
+    font-size: 24px;
+}
+#compraEnCuotas{
+    text-align: center;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 16px;
+}
+#nav{
+    color: black;
+    text-decoration: none;
+}
+.burger-menu{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color:#03264C;
+}
+
+footer{
+    text-align: center;
+}
