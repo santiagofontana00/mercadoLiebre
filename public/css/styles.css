@@ -1,8 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+#main{
+    width: 90vw;
+}
 header{
     background-color: #EAC926;
+    padding-bottom: 10px;
 }
 p{
     font-size: 12px;
@@ -12,6 +16,8 @@ h3{
 }
 #compraEnCuotas{
     text-align: center;
+    font-size: 14px;
+
 }
 .precio{
     font-size: 18px;
@@ -35,27 +41,34 @@ h3{
     padding: 10px;
     width: 20px;
     margin: auto;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 footer{
     text-align: center;
 }
 .iconoFooter{
-    color: #03264C;
+    color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
 }
 footer h3{
     margin: 0%;
+    color: #666
 }
 footer p{
     margin-top: 0%;
     margin-bottom: 50px;
+    color: #666;
+
 }
 .copy{
     text-align: left;
 }
 .ul1{
     list-style: none;
+    padding-left: 0px;
+}
+footer section{
+    padding: 0px 25px 0px;
 }
