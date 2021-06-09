@@ -25,6 +25,7 @@ h3{
 #nav{
     color: black;
     text-decoration: none;
+    text-align: left;
 }
 .burger-menu{
     text-align: center;
@@ -54,4 +55,7 @@ footer p{
 }
 .copy{
     text-align: left;
+}
+.ul1{
+    list-style: none;
 }
