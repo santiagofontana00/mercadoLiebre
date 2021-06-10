@@ -6,20 +6,58 @@
     .descripcion {
         display: none;
     }
-    .ul1 {
-        display: none;
+    .botHeader {
+        display: none !important;
     }
-
+    .logo{
+        width: 50%;
+    }
+    .navBar{
+        width: 50%;
+    }
+    #compraEnCuotas{
+        width: 100%;
+    }
+   .topBar{
+       padding: 20px;
+       display: flex;
+       flex-wrap: wrap;
+   }
 }
 
 @media (min-width: 361px) {
     #main article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    
+    .logo{
+        width: 33%;
+    }
     .burger-menu{
         display: none;
     }
+    .topBar{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+    #compraEnCuotas{
+        width: 33%;
+        max-width: 350px;
+        text-align: right !important;
+    }
+    .navBar{
+        width: 33%;
+    }
 }
+@media (min-width: 1200px){
+    .topBar,.botHeader{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
 
 @media (min-width: 769px) {
 
@@ -31,8 +69,22 @@ body {
 
 #background {
     background-color: #dfdfdf;
+    padding-bottom: 12px;
+    padding-top: 24px;
 }
-
+.botHeader{
+    display: flex;
+    justify-content: space-between; 
+}
+.botHeader ul{
+    display: flex;
+}
+.botHeader li{
+    margin: 5px;
+}
+.ul2 a{
+    margin-right: 10px;
+}
 #main {
     width: 90vw;
     margin: auto;
@@ -41,20 +93,46 @@ body {
 #main section h3 {
     color: #666;
 }
-
+.basado{
+    margin: 0px 0px 24px;
+}
+.productos{
+    display: flex;
+    
+}
 #main section img {
     width: 100%;
-    margin: auto;
+    margin: 0;
+}
+
+.logoEnvío{
+    display: flex;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    color: #39b54a;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.mismoRenglon{
+    display: flex;
 }
 
 .precio {
     color: black;
     margin: 0%;
+    width: 30%;
 }
 
 .descuento {
     color: #39b54a;
     margin: 0%;
+    width: 70%;
 }
 
 .descripcion {
@@ -145,7 +223,7 @@ footer p {
     text-align: left;
 }
 
-.ul1 {
+.ul1, .ul2 {
     list-style: none;
     padding-left: 0px;
 }
