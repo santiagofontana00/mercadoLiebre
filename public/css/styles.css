@@ -23,6 +23,7 @@
        display: flex;
        flex-wrap: wrap;
    }
+   
 }
 
 @media (min-width: 361px) {
@@ -50,14 +51,19 @@
     .navBar{
         width: 33%;
     }
+    .productos article{
+        width: 49%;
+    }
 }
 @media (min-width: 1200px){
     .topBar,.botHeader{
         max-width: 1200px;
         margin: auto;
     }
+    .productos article{
+        width: 24%;
+    }
 }
-
 
 @media (min-width: 769px) {
 
@@ -70,11 +76,14 @@ body {
 #background {
     background-color: #dfdfdf;
     padding-bottom: 12px;
-    padding-top: 24px;
+    padding-top: 28px;
+    margin-top: -4px;
 }
+
 .botHeader{
     display: flex;
     justify-content: space-between; 
+    width: 100vw;
 }
 .botHeader ul{
     display: flex;
@@ -85,9 +94,13 @@ body {
 .ul2 a{
     margin-right: 10px;
 }
+
 #main {
     width: 90vw;
     margin: auto;
+}
+#fotoOferta{
+    width: 100vw;
 }
 
 #main section h3 {
@@ -98,15 +111,21 @@ body {
 }
 .productos{
     display: flex;
-    
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+
 #main section img {
     width: 100%;
     margin: 0;
 }
-
-.logoEnvío{
+.centrarEnvio{
     display: flex;
+    justify-content: flex-end;
+}
+.logoEnvío{
     font-size: 16px;
     padding: 5px;
     width: 30px;
@@ -115,8 +134,8 @@ body {
     background-color: #FFF;
     border-radius: 50%;
     color: #39b54a;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    margin-right: 20px;
+    margin-bottom: 4px;
 }
 
 .mismoRenglon{
@@ -127,12 +146,13 @@ body {
     color: black;
     margin: 0%;
     width: 30%;
+    align-self: flex-end;
 }
 
 .descuento {
     color: #39b54a;
-    margin: 0%;
-    width: 70%;
+    margin: auto;
+    
 }
 
 .descripcion {
@@ -141,12 +161,13 @@ body {
 
 #main article {
     margin-bottom: 10px;
+    background-color: white;
 }
 
 .cajaDatos {
     border-top: solid 1px #ebebeb;
     padding: 15px;
-    background-color: white;
+   
 }
 
 header {
