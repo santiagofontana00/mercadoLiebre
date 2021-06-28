@@ -73,7 +73,7 @@
         
         transition: transform 1s;
     }
-    .logoEnvío:hover{
+    article:hover .logoEnvío{
         transform: rotate(360deg)
     }
 }
@@ -94,7 +94,6 @@
         left: 0;
         bottom: 0;
     }
-
     .iconoFooter:hover{
         color: #EAC926 !important;
     }
@@ -306,3 +305,4 @@ footer h3 {
 .copyright {
     padding: 0%;
 }
+rotate
